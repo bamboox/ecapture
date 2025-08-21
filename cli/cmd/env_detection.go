@@ -70,9 +70,9 @@ func detectEnv() error {
 		return err
 	}
 
-	if err := detectBpfCap(); err != nil {
-		return err
-	}
+	// if err := detectBpfCap(); err != nil {
+	// 	return err
+	// }
 
 	return nil
 }
